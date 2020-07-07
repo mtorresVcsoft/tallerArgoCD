@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: hello-vs
+  namespace: lab-vcsoft
+spec:
+  hosts:
+    - "helloargocd.k8s.vc-soft.com"
+  gateways:
+    - hello-gateway  
+  http:
+  - route:
+    - destination:
+        host: hello-svc
+        port:
+          number: 8080
