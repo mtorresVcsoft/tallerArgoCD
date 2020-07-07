@@ -7,6 +7,7 @@ spec:
   subsets:
   - name: "v1"
     labels:
+<<<<<<< HEAD
       version: "1.0"
   - name: "v2"
     labels:
@@ -14,3 +15,6 @@ spec:
   - name: "v3"
     labels:
       version: "3.0"
+=======
+      version: "1.0"
+>>>>>>> parent of ceaf59a... add v2

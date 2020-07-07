@@ -24,6 +24,7 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
+<<<<<<< HEAD
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -79,3 +80,5 @@ spec:
           ports:
             - containerPort: 8080
 
+=======
+>>>>>>> parent of ceaf59a... add v2
